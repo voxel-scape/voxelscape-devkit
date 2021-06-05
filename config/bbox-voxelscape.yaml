@@ -1,0 +1,11 @@
+# This file is covered by the LICENSE file in the root of this project.
+color_map: # bgr
+  "Car": [245, 150, 100]
+  "Bus": [250, 80, 100]
+  "Kid": [255, 0, 0]
+  "Truck": [180, 30, 80]
+  "Pedestrian": [30, 30, 255]
+  "Cyclist": [200, 40, 255]
+  "Motorcyclist": [90, 30, 150]
+  "Barrier": [105, 105, 105]
+  "Cone": [79, 79, 47]
