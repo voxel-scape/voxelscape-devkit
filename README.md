@@ -1,4 +1,4 @@
-# API for VoxelScape
+# VoxelScape devkit
 
 This repository contains helper scripts to open, visualize and process point clouds and annotations from the VoxelScape dataset.
 
@@ -45,7 +45,7 @@ The dataset has two main configuration files, namely `config/semantic-voxelscape
 - `labels`: dictionary which maps the numeric labels in `_subl.label/.label` files inside `orig_labels/kitti_labels` folder to a string class. Example: `256: "construction-cone"`
 - `color_map`: dictionary which maps numeric labels in `_subl.label/.label` files inside `orig_labels/kitti_labels` folder to a bgr color for visualization. Example `256: [79, 79, 47] # construction-cone, dark green-ish`
 
-## Dependencies for API:
+## Dependencies for the devkit:
 
 System dependencies
 
