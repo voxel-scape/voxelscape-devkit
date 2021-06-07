@@ -66,7 +66,7 @@ $ sudo pip3 install -r requirements.txt
 #### Semantic Labels 
 
 To visualize the full 32 semantic labels of the VoxelScape dataset, use the `visualize_semantic.py` script. It will open an interactive
-open3d visualization of the pointclouds
+open3d visualization of the pointclouds coloured with the semantic labels colormap in the `config/semantic-voxelscape.yaml` file.
 
 ```sh
 $ ./visualize_semantic.py --dataset /path/to/voxelscape/dataset/ --seq 00
@@ -84,9 +84,8 @@ $ ./visualize_semantic.py --dataset /path/to/voxelscape/dataset/ --seq 00  --con
 
 #### 3D Bbox Labels
 
-To visualize the data, use the `visualize_voxels.py` script. It will open an interactive
-opengl visualization of the voxel grids and options to visualize the provided voxelizations 
-of the LiDAR data.
+To visualize the 3D bboxs annotations, use the `visualize_bbox.py` script. It will open an interactive
+open3d visualization of the 3D bounding boxes of each object (from our 9 object calsses) coloured according to its class name described in the `config/bbox-voxelscape.yaml` file.
 
 ```sh
 $ ./visualize_bbox.py --dataset /path/to/voxelscape/dataset/ --seq 00 
