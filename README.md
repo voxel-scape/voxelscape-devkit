@@ -34,9 +34,9 @@ After downloading and un-zipping each sequence folder from the above download li
           └── 99/
 ```
 - `velodyne` contains the pointclouds for each scan in each sequence. Each 
-`.bin` scan is a list of float32 points in [x,y,z,remission] format.
+`.bin` scan is a list of float32 points in [x,y,z,intensity] format.
 - `bboxs` contains the 3D bounding boxes annotation of the 9 object classes in the dataset. Each `.pkl` 
-file contains the 8-vertices of the 3D bounding box and classs labels for each object exist in the corresponding `.bin` scan.
+file contains the 8-vertices of the 3D bounding box and the class labels for each object exist in the corresponding `.bin` scan.
 - `kitti_labels` contains only 19 merged/subset semantic class labels, which correspond to the labels exist in the SemanticKITTI dataset, for each scan in each sequence. Each `.label` file contains a uint32 label for each point in the corresponding `.bin` scan.
 - `orig_labels` contains the total 32 semantic class labels introduced in the VoxelScape dataset. Each `_subl.label` file contains a fine-grained uint32 label for differnet attributes of each object in the corresponding `.bin` scan. See [sem_util.py](utils/sem_util.py) for more information on the sub-labels.
 
