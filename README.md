@@ -100,3 +100,6 @@ In order to accelerate the visualization, the maximum number of 3D bboxs rendere
 ```sh
 $ ./visualize_semantic.py --dataset /path/to/voxelscape/dataset/ --seq 00  --bbox_num 15
 ```
+
+### License
+Our code is released under MIT license (see `LICENCE.txt` file).
