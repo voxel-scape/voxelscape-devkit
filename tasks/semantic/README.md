@@ -60,5 +60,5 @@ For further help, run `python scripts/run_pipeline.py --help`.
 - [SqueezeSeqV2 (VS-FT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EWb2WqPabdxKpQ8oLzzqDPMBoYgVDsDvlIGAcUza0BW4pA?e=q0G6NF)
 - [DarkNet53](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EUGXVdCzDSxMkkf0MSyxU5UBxqcUqyUhYolNmcFYNqq3Ow?e=k7Y4q8)
 - [DarkNet53 (VS-FT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EZgM_ltqBqlDhRqxxGNGiYABXxCPR-Imw5UlgIytALc4uA?e=dOgu6m)
-- [RandLANet] (https://storage.googleapis.com/open3d-releases/model-zoo/randlanet_semantickitti_202009090354utc.pth)
+- [RandLANet](https://storage.googleapis.com/open3d-releases/model-zoo/randlanet_semantickitti_202009090354utc.pth)
 - [RandLANet (VS-FT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EZgM_ltqBqlDhRqxxGNGiYABXxCPR-Imw5UlgIytALc4uA?e=dOgu6m)
