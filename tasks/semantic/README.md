@@ -52,7 +52,7 @@ For further help, run `python scripts/run_pipeline.py --help`.
 - [SqueezeSeqV2(+INT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EYt8qkZhG2JGjlNWLruMx38BBmhLjz9yNKpGKkFzkMeTwQ?e=YdlaTz)
 - [Darknet53(-INT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EWb2WqPabdxKpQ8oLzzqDPMBoYgVDsDvlIGAcUza0BW4pA?e=lJAWBd)
 - [Darknet53(+INT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EZoo1p6O0TRKkKveceLWmCABbFQjp3DZZPUwDX9aCcOYhQ?e=f7Yjey)
-- [RandLANet(-INT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EWb2WqPabdxKpQ8oLzzqDPMBoYgVDsDvlIGAcUza0BW4pA?e=lJAWBd)
+- [RandLANet(-INT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/ERgUxXbEV_xApLNvfbiyb_oBQQAHc-9KmbFYHIW6sU5YGA?e=hzmqkK)
 
 ### Generalisation Evaluation Experiment
 
@@ -61,4 +61,4 @@ For further help, run `python scripts/run_pipeline.py --help`.
 - [DarkNet53](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EUGXVdCzDSxMkkf0MSyxU5UBxqcUqyUhYolNmcFYNqq3Ow?e=k7Y4q8)
 - [DarkNet53 (VS-FT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EZgM_ltqBqlDhRqxxGNGiYABXxCPR-Imw5UlgIytALc4uA?e=dOgu6m)
 - [RandLANet](https://storage.googleapis.com/open3d-releases/model-zoo/randlanet_semantickitti_202009090354utc.pth)
-- [RandLANet (VS-FT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EZgM_ltqBqlDhRqxxGNGiYABXxCPR-Imw5UlgIytALc4uA?e=dOgu6m)
+- [RandLANet (VS-FT)](https://studentutsedu-my.sharepoint.com/:u:/g/personal/khaled_aboufarw_uts_edu_au/EWXcxWBVhK9Bj6k6fNbOZU8BwW-jcdKMkC9hN_KRuLPYPA?e=XxuANX)
