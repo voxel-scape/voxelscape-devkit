@@ -1,0 +1,1 @@
+The data generation pipeline we developed for generating our VoxelScape dataset is based on [Blender](https://www.blender.org/). The developed codes and add-ons will be released soon. Please stay tuned.
