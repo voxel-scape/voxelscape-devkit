@@ -1,0 +1,3 @@
+[submodule "gen-pipeline/voxelscape-lidarsim-blender-app-template"]
+	path = gen-pipeline/voxelscape-lidarsim-blender-app-template
+	url = https://github.com/mhossny/voxelscape-lidarsim-blender-app-template
