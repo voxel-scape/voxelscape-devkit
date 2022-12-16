@@ -54,6 +54,12 @@ python scripts/run_pipeline.py torch -c ml3d/configs/pointpillars_voxelscape.yml
 ```
 For further help, run `python scripts/run_pipeline.py --help`.
 
+## Launch Training for PointPillars Trained Initially on VoxelScape and Fine-Tuned using SemanticKITTI with PyTorch.
+```
+python scripts/run_pipeline.py torch -c ml3d/configs/pointpillars_kitti.yml --split train --dataset.dataset_path <path-to-dataset> --pipeline ObjectDetection --ckpt_path /path/to/pretrained-vs-model --dataset.use_cache True
+
+```
+For further help, run `python scripts/run_pipeline.py --help`.
 
 ## Pre-trained Models
 
