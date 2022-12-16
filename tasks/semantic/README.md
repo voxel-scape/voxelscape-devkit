@@ -47,7 +47,7 @@ python scripts/run_pipeline.py torch -c ml3d/configs/randlanet_voxelscape.yml --
 
 ```
 cd ../object/
-python scripts/run_pipeline.py torch -c ml3d/configs/randlanet_voxelscape.yml --split test --dataset.dataset_path <path-to-dataset> --pipeline SemanticSegmentation --ckpt_path /path/to/pretained-vs-model --dataset.use_cache True
+python scripts/run_pipeline.py torch -c ml3d/configs/randlanet_semantickitti.yml --split test --dataset.dataset_path <path-to-dataset> --pipeline SemanticSegmentation --ckpt_path /path/to/pretained-vs-model --dataset.use_cache True
 
 ```
 For further help, run `python scripts/run_pipeline.py --help`.
