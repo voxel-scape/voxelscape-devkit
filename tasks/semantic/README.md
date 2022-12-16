@@ -5,10 +5,16 @@ and [Open3D-ML](https://github.com/isl-org/Open3D-ML) framework for training/eva
 ## Projection-based DNN Models
 
 ### Training
-To train a network on our VoxelScape dataset with the full original labels from scratch:
+* To train a network on our VoxelScape dataset with the full original labels from scratch:
 
 ```sh
-$ ./train.py -d /path/to/dataset -ac config/arch/CHOICE.yaml -dc config/labels/semantic-VoxelScape-all.yaml -l /path/to/log
+$ ./train.py -d /path/to/vs-dataset -ac config/arch/CHOICE.yaml -dc config/labels/semantic-VoxelScape-all.yaml -l /path/to/log
+```
+
+* To train a network trained initially on our VoxelScape dataset and fine-tune it using real PCD dataset (i.e SemanticKITTI):
+ 
+```sh
+$ ./train.py -d /path/to/semkitti-dataset --pretrained /path/to/pretained-vs-model -ac config/arch/CHOICE.yaml -dc config/labels/semantic-kitti-all.yaml -l /path/to/log
 ```
 ### Inference
 
@@ -29,6 +35,8 @@ $ ./evaluate_iou.py -d /path/to/dataset -p /path/to/predictions/ --split valid
 ## Point-based DNN Model
 
 ### Training 
+* To train RandLANet on our VoxelScape dataset with the full original labels from scratch:
+
 ```
 cd ../object/
 python scripts/run_pipeline.py torch -c ml3d/configs/randlanet_voxelscape.yml --split train --dataset.dataset_path <path-to-dataset> --pipeline SemanticSegmentation --dataset.use_cache True
@@ -40,6 +48,13 @@ For further help, run `python scripts/run_pipeline.py --help`.
 ```
 cd ../object/
 python scripts/run_pipeline.py torch -c ml3d/configs/randlanet_voxelscape.yml --split test --dataset.dataset_path <path-to-dataset> --pipeline SemanticSegmentation --dataset.use_cache True
+
+```
+* To train a RandLANet model trained initially on our VoxelScape dataset and fine-tune it using real PCD dataset (i.e SemanticKITTI):
+
+```
+cd ../object/
+python scripts/run_pipeline.py torch -c ml3d/configs/randlanet_voxelscape.yml --split test --dataset.dataset_path <path-to-dataset> --pipeline SemanticSegmentation --ckpt_path /path/to/pretained-vs-model --dataset.use_cache True
 
 ```
 For further help, run `python scripts/run_pipeline.py --help`.
